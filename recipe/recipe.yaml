@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.61"
+  version: "1.70"
 
 package:
   name: miniaudio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/miniaudio/miniaudio-${{ version }}.tar.gz
-  sha256: e88e97837d031f0fb6982394218b6487de02eaa382ad273b8fca37791a2b4b15
+  sha256: f788504ee2b8ad3092f34b13d72875dba50597a3d25d8af3ac2f8573d31d8c31
   # The extension is CFFI-based and thus independent from the Python version.
   # Mark it as ABI3 to save some CI resources.
   patches:
